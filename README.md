@@ -1,6 +1,7 @@
 # class_demo
 
 > This is a demo for the class to learn about Vue.js 2.x
+> We will walkthrough some directives, the structure of Vue.js 2.x, and get our hands dirty with it
 
 ## Build Setup
 
