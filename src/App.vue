@@ -27,6 +27,7 @@
 
 <script>
 import Demo from './components/Demo.vue';
+
 export default {
   name: 'app',
   components: {
