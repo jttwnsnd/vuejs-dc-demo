@@ -8,6 +8,12 @@
     </div>
     <div class="row">
       <div class="col-xs-12">
+        <h2>Components</h2>
+        <app-demo :message='passed'></app-demo>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-xs-12">
         <h2>Directives</h2>
       </div>
     </div>
@@ -20,11 +26,16 @@
 </template>
 
 <script>
+import Demo from './components/Demo.vue';
 export default {
   name: 'app',
+  components: {
+    appDemo: Demo
+  },
   data () {
     return {
-      msg: 'Welcome to the Vue.js Demo'
+      msg: 'Welcome to the Vue.js Demo',
+      passed: 'This is included by a prop'
     }
   }
 }
